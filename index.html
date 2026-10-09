@@ -22,7 +22,7 @@
 
 <div class="card">
 <h2>Microphone alert</h2>
-<p>A red badge appears whenever any app is using your microphone, with the app's name and how long it has been on. You can also show a red frame around the screen.</p>
+<p>A red badge appears whenever any app has your microphone open, with the app's name and how long it has been on. You can also show a red frame around the screen. For calling apps you choose, only the menu bar icon turns red.</p>
 <h2>Presentation mode</h2>
 <p>Before you share your screen, one click covers your desktop icons, hides the apps you don't need and sets the clipboard aside. Everything comes back when you finish.</p>
 <h2>Talk timer</h2>
@@ -35,10 +35,11 @@
 <h2>Frequently asked questions</h2>
 <p><strong>Where is the app?</strong> Cuewise has no Dock icon. Look for the microphone icon in the menu bar at the top right of your screen. The <kbd>?</kbd> button in its menu shows the welcome screen again.</p>
 <p><strong>Why doesn't Cuewise ask for microphone permission?</strong> It never records or listens. It only asks macOS whether the microphone is in use, which needs no permission.</p>
+<p><strong>I'm muted in my meeting, but Cuewise still shows the microphone as on.</strong> Meeting apps such as Google Meet, Zoom and Teams keep the microphone open while you're muted in them, so for macOS (and for Cuewise) the microphone is still in use. Cuewise can't see the mute button inside another app. Two options: in the menu, choose "Only the menu bar icon for" that app to mark it as a calling app, or press <kbd>⌃⌥⌘M</kbd> to hide the alert until the microphone turns off.</p>
 <p><strong>The badge doesn't show which app is using the microphone.</strong> That needs macOS 14.4 or later. On earlier versions the alert still works, without the app's name.</p>
 <p><strong>Can the people in my meeting see the alert or the timer?</strong> Cuewise asks macOS to keep them out of screen sharing, but some meeting apps ignore that request. To be sure, share a single window instead of the whole screen.</p>
 <p><strong>How do I turn on Do Not Disturb automatically?</strong> macOS doesn't let apps turn on Focus by themselves. In the Shortcuts app, create two shortcuts with the "Set Focus" action (one on, one off) and type their names in Cuewise Settings, Presentation.</p>
-<p><strong>Keyboard shortcuts:</strong> <kbd>⌃⌥⌘P</kbd> presentation mode, <kbd>⌃⌥⌘T</kbd> start or pause the timer, <kbd>⌃⌥⌘R</kbd> reset the timer.</p>
+<p><strong>Keyboard shortcuts:</strong> <kbd>⌃⌥⌘P</kbd> presentation mode, <kbd>⌃⌥⌘T</kbd> start or pause the timer, <kbd>⌃⌥⌘R</kbd> reset the timer, <kbd>⌃⌥⌘M</kbd> hide the microphone alert until it turns off.</p>
 
 <h2>Em português</h2>
 <p>O Cuewise mostra um alerta quando algum app usa o microfone, prepara a tela antes de compartilhar e marca o tempo de fala. Suporte: <a href="mailto:alessi.soncini@gmail.com?subject=Cuewise">alessi.soncini@gmail.com</a>.</p>
